@@ -1,0 +1,70 @@
+.massage {
+  margin-bottom: 115px;
+  background-color: #f8f8f8;
+  padding: 42px 50px;
+}
+
+.massage__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.massage__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 74%;
+}
+
+.massage__icon > img {
+  width: 100%;
+  height: auto;
+}
+
+.massage__texts {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.massage__text {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #a9afb1;
+  margin-bottom: 15px;
+}
+
+.massage__group {
+  display: flex;
+  align-items: center;
+}
+
+.massage__line {
+  width: 70px;
+  height: 4px;
+  background-color: #f38281;
+  margin-right: 30px;
+}
+
+.massage__author {
+  font-family: "Kaushan Script";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 44px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.carousel-control-prev-icon {
+  background-color: #c6cbcd;
+}
+
+.carousel-control-next-icon {
+  background-color: #c6cbcd;
+}

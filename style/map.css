@@ -1,0 +1,22 @@
+.map {
+  background-image: url(/img/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+.map__bg {
+  background-color: #ffffffe5;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0;
+}
+
+.map__icon {
+  margin-bottom: 20px;
+}
+
+.map__title {
+  color: #f38281;
+}

@@ -1,0 +1,51 @@
+.devices {
+  height: auto;
+  width: 100%;
+  background-image: url(/img/bg_devices.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.devices__bg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 60px;
+}
+
+.devices__line {
+  margin-bottom: 80px;
+}
+
+.devices__tablet {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.devices__tablet > img {
+  width: 100%;
+  height: auto;
+}
+
+.devices__tablet-frame {
+  position: absolute;
+  width: 180%;
+  top: -5%;
+  left: -39%;
+}
+
+.devices__tablet-frame > img {
+  width: 100%;
+  height: auto;
+}
+
+.devices__phone {
+  position: absolute;
+  top: 38%;
+  right: -8%;
+}
+
+.devices__phone > img {
+  width: 100%;
+  height: auto;
+}

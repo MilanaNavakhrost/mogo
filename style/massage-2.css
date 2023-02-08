@@ -1,0 +1,38 @@
+.massage-2 {
+  background-color: inherit;
+}
+
+.massage-2__block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.massage-2__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 74%;
+}
+
+.massage-2__icon > img {
+  width: 100%;
+  height: auto;
+}
+
+.massage-2__texts {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.massage-2__text {
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #a9afb1;
+  margin-bottom: 15px;
+}

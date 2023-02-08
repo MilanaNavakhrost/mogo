@@ -1,0 +1,81 @@
+.team {
+  margin-bottom: 70px;
+}
+
+.team__line {
+  margin-bottom: 36px;
+}
+
+.team__text {
+  margin-bottom: 96px;
+}
+
+.team__cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.team__card {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team__picture {
+  margin-bottom: 28px;
+  position: relative;
+}
+
+.team__picture img {
+  width: 100%;
+  height: auto;
+}
+
+.team__name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2d3033;
+  margin-bottom: 30px;
+}
+
+.team__role {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #2d3033;
+  margin-bottom: 0;
+}
+
+.team__hover-card {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  bottom: 15px;
+}
+
+.team__picture:hover .team__hover-card {
+  opacity: 100%;
+}
+
+.team__picture:hover {
+  cursor: pointer;
+}
+
+.team__networks {
+  display: flex;
+}
+
+.team__networks > img {
+  margin-right: 1px;
+}
