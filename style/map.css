@@ -1,9 +1,8 @@
 .map {
-  background-image: url(img/map.png);
+  background-image: url(/img/map.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: auto;
-  width: 100%;
+  background-position: center;
 }
 
 .map__bg {
