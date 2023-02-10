@@ -13,28 +13,21 @@
   padding-top: 60px;
 }
 
+.devices__content {
+  z-index: 1;
+  position: inherit;
+}
+
 .devices__line {
   margin-bottom: 80px;
 }
 
-.devices__tablet {
+.devices__combo {
   position: relative;
   margin-bottom: 60px;
 }
 
-.devices__tablet > img {
-  width: 100%;
-  height: auto;
-}
-
-.devices__tablet-frame {
-  position: absolute;
-  width: 180%;
-  top: -5%;
-  left: -39%;
-}
-
-.devices__tablet-frame > img {
+.devices__combo img{
   width: 100%;
   height: auto;
 }
@@ -43,6 +36,7 @@
   position: absolute;
   top: 38%;
   right: -8%;
+  width: 30%;
 }
 
 .devices__phone > img {
